@@ -33,7 +33,7 @@ class TestImage < MiniTest::Test
 			[0,0,0,0]
 		]
 
-		assert_equal expected, image 
+		assert_equal expected, image.image
 	end 
 
 end 
